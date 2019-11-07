@@ -30,6 +30,8 @@ app.use(function validateBearerToken(req, res, next) {
 
 app.use(bookmarksRouter)
 
+app.get()
+
 app.get('/', (req, res) => {
     res.send('Welcome to the Bookmarks Server!')
 })
